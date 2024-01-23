@@ -14,7 +14,7 @@
     font-weight: bold;
 }
 
-#pallete2-color2 {
+#pallete1-color2 {
     background-color: #FA8C4E;
     color: #008080;
     text-align: center;
@@ -23,9 +23,76 @@
     font-style: italic;
 }
 
-#pallete3-color3 {
+#pallete1-color3 {
     background-color: #5F6465;
     color: #FA8C4E;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 24px;
+    font-style: oblique;
+}
+#scofrm1100 {
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#pallete2-color1 {
+    background-color: #FF0000;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+    font-style: oblique;
+}
+
+#pallete2-color2 {
+    background-color: black;
+    color: #FF0000;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 24px;
+    font-style: italic;
+}
+
+#pallete2-color3 {
+    background-color: #5F6465;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 24px;
+    font-style: oblique;
+}
+
+#opticgaming {
+    color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#pallete3-color1 {
+    background-color: #FAE3C6;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 24px;
+    font-style: oblique;
+}
+
+#pallete3-color2 {
+    background-color: #000000;
+    color: #FAE3C6;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 24px;
+    font-style: italic;
+}
+
+#pallete3-color3 {
+    background-color: #008080;
+    color: white;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     padding: 24px;
