@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 
 #license {
-    background-color: coral;
+    background: linear-gradient(coral,lightcoral);
     width: 700px;
     border-radius: 30px 30px 30px 30px;
 }
@@ -18,7 +18,7 @@
 }
 
 #right-side {
-    margin-left: 85px;
+    margin-left: 100px;
     text-align: center;
 }
 
@@ -71,11 +71,11 @@ div#left-side h4 {
 }
 
 div#right-side img {
-    width: 230px;
+    width: 130px;
 }
 
 div#left-side img{
-    width: 100px;
+    width: 50px;
     opacity: 40%;
 }
 
