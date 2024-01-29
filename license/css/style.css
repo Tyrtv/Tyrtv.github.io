@@ -76,5 +76,23 @@ div#right-side img {
 
 div#left-side img{
     width: 100px;
-    opacity: 25%;
+    opacity: 40%;
+}
+
+div#id-and-expiration span {
+    color: red;
+}
+
+div#id-and-expiration div {
+    color: aquamarine;
+}
+
+div#data-left span,
+div#data-right span {
+    color: red;
+}
+
+div#data-left div,
+div#data-right div {
+    color: aquamarine;
 }
