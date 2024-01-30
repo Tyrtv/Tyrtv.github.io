@@ -1,8 +1,29 @@
-.tertis-block {
+.coral {
             padding: 20px;
             border-width: 12px;
-            border-style: outset;
+            border-style:ridge;
             display: inline-block;
+}
+
+.teal {
+    padding: 20px;
+    border-width: 12px;
+    border-style:groove;
+    display: inline-block;
+}
+
+.seagreen {
+    padding: 20px;
+    border-width: 12px;
+    border-style: dashed;
+    display: inline-block;
+}
+
+.goldenrod {
+    padding: 20px;
+    border-width: 12px;
+    border-style: inset;
+    display: inline-block;
 }
 
 .teal {
