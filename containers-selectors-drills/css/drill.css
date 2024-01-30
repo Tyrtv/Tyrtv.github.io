@@ -1,19 +1,52 @@
 /* Drill 1 - Write your code solution below */
+#red {
+    border-color: red;
+}
 
+#orange {
+    border-color: orange;
+}
+
+div.orange {
+    color: limegreen;
+}
 
 
 /* Drill 2 - Write your code solution below */
-
+div.purple {
+    color: orangered;
+}
 
 
 /* Drill 3 - Write your code solution below */
-
+div.dashed {
+    border-style: dashed;
+}
+div.dashed p span {
+    color: magenta;
+}
 
 
 /* Drill 4 - Write your code solution below */
-
+div.shadowed p {
+    background-color: skyblue;
+}
 
 
 /* Drill 5 - Write your code solution below */
+div.dog-days {
+    border-style: dotted;
+}
 
+div.dog-days img {
+    border-radius: 100px
+}
 
+div.cat-tales {
+    border-right: solid;
+    border-left: solid;
+    border-bottom: dashed;
+    border-top: dashed;
+    border-width: 20px;
+    border-color: rgb(173,172,88);
+}
