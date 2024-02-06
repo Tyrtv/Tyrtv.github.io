@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+    background: whitesmoke;
+}
+
+body {
+    margin: 0px;
+    display: block;
+    font-family: sans-serif;
+}
+
+div {
+    display: block;
+}
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-areas:
+        "header header header"
+        "image info sidebar";
+}
+
+#header {
+    grid-area: header;
+    text-align: center;
+    border-bottom: 1px solid slategray;
+    margin-bottom: 36px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#header h1 {
+    font-size: 48px;
+    margin: 0px;
+    padding: 12px;
+}
+
+#header .m {
+    color: violet;
+}
+
+#header .e {
+    color: coral;
+}
+
+#header .b {
+    color: teal;
+}
+
+#header .a {
+    color: goldenrod;
+}
+
+#header .y {
+    color: aquamarine;
+}
+
+#images-column img {
+    width: 100%;
+    padding: 0px 24px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#product-info-column h2 {
+    margin: 0px;
+    padding-bottom: 12px;
+}
+
+#product-info-column h2, #product-info-column .product-info {
+    border-bottom: 1px solid slategray;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.big.bold {
+    font-size: 26px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-content {
+    display: flex;
+}
+
+.dark-button, .light-button, .empty-button {
+    border-radius: 24px;
+    padding: 12px;
+    min-width: 200px;
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.dark-button {
+    background-color: #0053a0;
+    color: white;
+}
+
+.light-button {
+    background-color: #3498ca;
+    color: white;
+}
+.empty-button {
+    border: 1px solid #3665f3;
+    color: #3665f3;
+}
+
+.panel {
+    border: 1px solid #BBBBBB;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 0px 24px 18px;
+}
+
+.panel p {
+    margin: 12px 0px;
+}
+
+.panel h3 {
+    margin: 0px 0px 8px;
+}
+
+#seller-links {
+    border-top: 2px dotted #BBBBBB;
+    padding-top: 12px;
+}
+
+#seller-links a {
+    display: block;
+    margin-bottom: 8px;
+}
