@@ -131,7 +131,7 @@ p {
     display: flex;
 }
 
-.dark-button, .light-button, .empty-button {
+.buy-now, .add-to-cart, .add-to-wishlist {
     border-radius: 24px;
     padding: 12px;
     min-width: 200px;
@@ -139,22 +139,22 @@ p {
     margin: 12px 0px;
 }
 
-.dark-button {
+.buy-now {
     background-color: #0053a0;
     color: white;
 }
 
-.light-button {
-    background-color: #3498ca;
+.add-to-cart {
+    background-color: teal;
     color: white;
 }
-.empty-button {
-    border: 1px solid #3665f3;
-    color: #3665f3;
+.add-to-wishlist {
+    border: 1px solid aquamarine;
+    color: teal;
 }
 
 .panel {
-    border: 1px solid #BBBBBB;
+    border: 1px solid slategray;
     border-radius: 12px;
     padding: 24px;
     margin: 0px 24px 18px;
