@@ -1,0 +1,80 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.card-style-1 a {
+    display: block;
+    background-color: teal;
+    padding: 24px;
+    font-size: 20px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    transition: opacity 0.25s;
+}
+
+#section-1 {
+    background: url(../images/treasure-map.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.card-style-1 h2 {
+    margin-top: 0px;
+    padding-top: 24px;
+    text-align: center;
+}
+
+.card-style-1 h2, .card-style-1 p {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card-style-1 {
+    background-color: whitesmoke;
+    max-width: 350px;
+    box-shadow: 4px 4px 8px #00000088;
+    margin: 16px;
+    position: relative;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.card-style-1 img {
+    width: 100%;
+}
