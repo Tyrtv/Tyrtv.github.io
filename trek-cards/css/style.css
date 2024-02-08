@@ -37,13 +37,6 @@ p {
     transition: opacity 0.25s;
 }
 
-#section-1 {
-    background: url(../images/treasure-map.webp);
-    background-size: cover;
-    background-position: center center;
-}
-
-
 .card-style-1 h2 {
     margin-top: 0px;
     padding-top: 24px;
