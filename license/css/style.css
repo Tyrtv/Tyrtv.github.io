@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+#license {
+    background: linear-gradient(coral,lightcoral);
+    width: 700px;
+    border-radius: 30px 30px 30px 30px;
+}
+
+#content {
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 30px 30px 30px 30px;
+}
+
+#left-side,
+#right-side {
+    display: inline-block;
+}
+
+#right-side {
+    margin-left: 100px;
+    text-align: center;
+}
+
+div#left-side h4 {
+    border: 6px solid teal;
+    background-color: teal;
+}
+
+#id-and-expiration {
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+#address {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#personal-info {
+    display: inline-flex;
+}
+
+#data-left,
+#data-right {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: large;
+    margin-left: 10px;
+}
+
+#signature {
+    text-align: center;
+    font-family: 'Ms Madi', cursive;
+    font-size: x-large;
+}
+
+#donor,
+#real-id {
+    display: inline-flex;
+    margin-inline: 25px;
+    text-align: right;
+    color: aquamarine;
+    font-size: x-large;
+}
+
+#donor {
+    color: red;
+    font-size: larger;
+}
+
+div#right-side img {
+    width: 130px;
+}
+
+div#left-side img{
+    width: 50px;
+    opacity: 40%;
+}
+
+div#id-and-expiration span {
+    color: red;
+}
+
+div#id-and-expiration div {
+    color: aquamarine;
+}
+
+div#data-left span,
+div#data-right span {
+    color: red;
+}
+
+div#data-left div,
+div#data-right div {
+    color: aquamarine;
+}

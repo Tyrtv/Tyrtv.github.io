@@ -1,0 +1,35 @@
+.tetris-block {
+            padding: 17px;
+            border-width: 10px;
+            display: inline-block;
+}
+
+.teal {
+    background-color: teal;
+    border-color: aqua;
+    border-style:groove;
+}
+
+.coral {
+    background-color: coral;
+    border-color: salmon;
+    border-style:ridge;
+}
+
+.seagreen {
+    background-color: lightseagreen;
+    border-color: aquamarine;
+    border-style: dashed;
+}
+
+.goldenrod {
+    background-color: goldenrod;
+    border-color: lightgoldenrodyellow;
+    border-style: inset;
+}
+
+.thistle {
+    background-color: rgb(171, 101, 206);
+    border-color: thistle;
+    border-style: double;
+}

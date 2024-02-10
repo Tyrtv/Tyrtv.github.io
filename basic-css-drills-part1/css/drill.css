@@ -1,0 +1,38 @@
+#d1-p1 {
+    color: green;
+}
+
+
+#d2-s1,
+#d2-s3 {
+    color: #F711F7;
+}
+
+
+#d3-s1 {
+    color: red;
+}
+
+#d3-s4 {
+    color: goldenrod;
+} 
+
+#d3-s6 {
+    color: blue;
+}
+
+#d4-p1 {
+    background-color: skyblue;
+}
+
+#d5-div1 {
+    background-color: peachpuff;
+}
+
+#d5-p1 {
+    background-color: pink;
+}
+
+#d5-p2 {
+    background-color: lightcoral;
+}
