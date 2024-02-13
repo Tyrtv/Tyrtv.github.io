@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/tim-rebkavets-B5PNmw5XSpk-unsplash.jpg");
+    height: 100vh;
+}
+
+#hero-1 {
+    background-image: url("../images/tim-rebkavets-B5PNmw5XSpk-unsplash.jpg");
+    height: 100vh;
+    background-size: cover; 
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+h2,
+h3 {
+    font-style: italic;
+    border: 3px dotted black;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(192, 137, 65);
+}
+
+#hero-1 h1 {
+    font-size: 10vw; 
+    padding-left: 25vw; 
+    padding-top: 40vw;
+    color: rgb(192, 137, 65);
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.basic-grid-gallery  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.basic-grid-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 24px;
+}
