@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(84, 101, 118);
+}
+
+#hero-1 {
+    background-image: url("../images/ArchitecturalIllustrationProjectFinal_101_Twhite-01.jpg");
+    height: 100vh;
+}
+
+#hero-1 {
+    background-image: url("../images/ArchitecturalIllustrationProjectFinal_101_Twhite-01.jpg");
+    height: 100vh;
+    background-size: cover; 
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+h1 {
+    font-size: 10vw;  
+    color: wheat;
+    text-align: center;
+}
+
+h2 {
+    color: slategrey;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, rgb(39, 79, 120), slategrey, rgb(84, 101, 118));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: wheat;
+    padding: 15px;
+}
+
+#navbar img {
+    height: 50px;
+    padding-left: 10vw;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar .cta-button {
+    border: 2px dotted;
+    border-color: wheat;
+    color: wheat;
+    border-radius: 24px;
+    padding: 5px 5px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 100px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.horizontal-masonry-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.horizontal-masonry-gallery img {
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    border: 10px dashed black;
+    gap: 24px;
+}
+
+.basic-grid-gallery img {
+    width: 100%;
+}
+
+#centered-column {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px rgb(251, 221, 167);
+    background: linear-gradient(
+        -50deg,
+        rgb(248, 240, 225),
+        rgb(255, 213, 134),
+        rgb(251, 233, 198));
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.card p {
+    font-size: 18px;
+    flex: 1;
+}
+
+.card a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: beige;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid wheat;
+    transition: background-color .5s, color .5s;
+}
+
+.card a:hover {
+    background-color: transparent;
+    color: slategrey;
+}
