@@ -27,6 +27,7 @@ h1 {
     font-size: 10vw;  
     color: wheat;
     text-align: center;
+    text-decoration: underline;
 }
 
 h2 {
@@ -37,6 +38,7 @@ h2 {
 h3 {
     text-align: center;
     font-style: italic;
+    border: 2px solid wheat;
 }
 
 #navbar {
@@ -49,7 +51,7 @@ h3 {
 #navbar a {
     text-decoration: none;
     color: wheat;
-    padding: 15px;
+    padding: 24px;
 }
 
 #navbar img {
