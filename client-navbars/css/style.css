@@ -99,6 +99,12 @@ body {
     color: red;
 }
 
+#bogo a {
+    text-decoration: none;
+    color: red;
+    padding: 12px 36px;
+}
+
 #navbar-bottom {
     background: linear-gradient(to bottom, #333,#333,slategrey);
     display: flex;
