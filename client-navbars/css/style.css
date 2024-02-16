@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar-1 {
+    background: linear-gradient( green, forestgreen, olive);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-1 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-1 #logo {
+    margin-right: auto;
+}
+
+#navbar {
+    background: linear-gradient( rgb(255, 4, 0), rgb(247, 122, 32), yellow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+    
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar .cta-button {
+    border: 2px dotted  rgb(47, 93, 105);
+    color: rgb(47, 93, 105);
+    border-radius: 36px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 100px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#client-2 {
+    font-family: serif;
+}
+
+#navbar-2 {
+    background: linear-gradient( black, black, rgb(8, 8, 8),#333);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+    
+#navbar-2 a {
+    text-decoration: none;
+    color: red;
+    padding: 24px;
+}
+
+#navbar-2 #logo {
+    margin-right: auto;
+    color: whitesmoke;
+}
+
+#navbar-2 .cta-button {
+    background-color: red;
+    color: black;
+    border-radius: 36px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 100px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#bogo {
+    text-align: center;
+    background-color: black;
+    color: red;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, #333,#333,slategrey);
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 12px 36px;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+    font-family: fantasy;
+}
