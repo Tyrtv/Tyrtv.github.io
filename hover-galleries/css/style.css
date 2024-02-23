@@ -116,7 +116,7 @@ h3 {
     transition:
         opacity 0.5s,
         visibility 0.5s;
-        transform 0.5s;
+        transform: 0.5s;
 }
     
 #card4-1:hover .card-content {
