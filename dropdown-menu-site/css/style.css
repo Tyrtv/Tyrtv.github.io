@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("../images/leopard.jpeg");
+}
+
+#navbar {
+    background: linear-gradient(to bottom, goldenrod, burlywood, beige);
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, goldenrod, burlywood, beige);
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.dropdown-menu a {
+    background-color: rgb(192, 150, 94);
+    width: 100%;
+    min-width: 200px;
+}
+    
+    
+#navbar .dropdown-menu a:hover {
+    background: beige;
+}
+
+#hero-2 {
+    background-image: url("../images/adopt\ me.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+#hero-2 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+#hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: burlywood;
+    color: black;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-2 a:hover {
+    background: goldenrod;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    flex: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+    
+    
+.card a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 3px solid goldenrod;
+    padding: 12px;
+    margin-bottom: 36px;
+    margin-top: 0px;
+}
+
+#card2 a {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#card2:hover a {
+    background-color: beige;
+    box-shadow: 4px 4px 4px black;
+    transform: translateY(-4px);
+}
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 24px;
+    border: 10px dashed burlywood;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.basic-grid-gallery img {
+    width: 100%;
+}
+
+#card2 {
+    position: relative;
+}
+
+#card2 .card-content {
+    position: absolute;
+    background-color: burlywood;
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    left: 0px;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#card2:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#card2:hover {
+    background-color: black;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+       
+#card2 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
+}
+
+#available-animals h1,
+p,
+h4  {
+    color: beige;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    #navbar {
+        flex-direction: column;
+    }
+    
+    #hero-2 h1 {
+        flex-direction: column;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    #hero-2 a {
+        align-items: center;
+        flex-direction: column;
+        font-size: 25px;
+    }
+}
