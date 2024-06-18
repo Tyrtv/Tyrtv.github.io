@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 
 #license {
-    background: linear-gradient(crimson,red);
+    background: linear-gradient(magenta,crimson,red);
     width: 700px;
     border-radius: 30px 30px 30px 30px;
 }
@@ -85,7 +85,7 @@ div#right-side img {
 
 div#left-side img{
     width: 70px;
-    opacity: 40%;
+    opacity: 50%;
 }
 
 div#id-and-expiration span {
