@@ -10,7 +10,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 
 #license {
-    background: linear-gradient(coral,lightcoral);
+    background: linear-gradient(magenta,crimson,red);
     width: 700px;
     border-radius: 30px 30px 30px 30px;
 }
@@ -32,8 +32,8 @@
 }
 
 div#left-side h4 {
-    border: 6px solid teal;
-    background-color: teal;
+    border: 6px solid darkseagreen;
+    background-color: darkseagreen;
 }
 
 #id-and-expiration {
@@ -70,38 +70,38 @@ div#left-side h4 {
     display: inline-flex;
     margin-inline: 25px;
     text-align: right;
-    color: aquamarine;
+    color: darkgreen;
     font-size: x-large;
 }
 
 #donor {
-    color: red;
+    color: black;
     font-size: larger;
 }
 
 div#right-side img {
-    width: 130px;
+    width: 170px;
 }
 
 div#left-side img{
-    width: 50px;
-    opacity: 40%;
+    width: 70px;
+    opacity: 50%;
 }
 
 div#id-and-expiration span {
-    color: red;
+    color: black;
 }
 
 div#id-and-expiration div {
-    color: aquamarine;
+    color: whitesmoke;
 }
 
 div#data-left span,
 div#data-right span {
-    color: red;
+    color: black;
 }
 
 div#data-left div,
 div#data-right div {
-    color: aquamarine;
+    color: whitesmoke;
 }
