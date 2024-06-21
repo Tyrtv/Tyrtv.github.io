@@ -9,10 +9,6 @@ body {
     font-family: sans-serif;
 }
 
-div {
-    display: block;
-}
-
 #grid-layout {
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
@@ -101,14 +97,6 @@ h3 {
 
 #product-info-column h2, #product-info-column .product-info {
     border-bottom: 1px solid slategray;
-}
-
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 .bold {
