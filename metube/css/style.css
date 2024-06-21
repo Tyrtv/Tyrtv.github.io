@@ -9,6 +9,25 @@ body {
     color: antiquewhite;
 }
 
+#navbar-1 {
+    background: linear-gradient( green, forestgreen, olive);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-1 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-1 #logo {
+    margin-right: auto;
+}
+
 #grid-layout {
     display: grid;
     grid-template-columns: 250px 1fr;
