@@ -10,21 +10,14 @@
 
 * {
     box-sizing: border-box;
+    display: block;
 }
 
 body {
     margin: 0px;
     font-family: sans-serif;
-    display: block;
 }
 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
 
 .card-style-1 a {
     display: block;
@@ -48,24 +41,12 @@ p {
     padding-right: 24px;
 }
 
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
-
 .card-style-1 {
     background-color: whitesmoke;
     max-width: 350px;
     box-shadow: 4px 4px 8px #00000088;
     margin: 16px;
     position: relative;
-    transition: transform 0.25s, box-shadow 0.25s;
-}
-
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
 }
 
 .card-style-1 img {
