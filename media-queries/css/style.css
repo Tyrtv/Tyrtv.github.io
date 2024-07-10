@@ -214,7 +214,7 @@ a {
 
 @media screen and (max-width: 768px) {
     body {
-    background-color: firebrick;
+        background: radial-gradient(violet,black,teal)
     }
     #nav {
         flex-direction: column;
@@ -235,15 +235,10 @@ a {
         flex-direction: column;
     }
     .three-cards {
-        align-items: center;
         margin: 0px;
     }
     .three-cards p {
         font-size: 20px;
     }
- 
-
-
-
-}
+ }
 
