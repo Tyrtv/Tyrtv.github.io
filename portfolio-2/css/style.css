@@ -17,18 +17,19 @@ h1 {
 }
 
 h2 {
-    color: slategrey;
+    color: black;
     text-align: center;
 }
 
-h3 {
+#gallery h2 {
     text-align: center;
     font-style: italic;
     border: 2px solid wheat;
+    color: black;
 }
 
 #navbar {
-    background: linear-gradient(to bottom, rgb(39, 79, 120), slategrey, rgb(84, 101, 118));
+    background: linear-gradient(to bottom, whitesmoke, rgb(0, 21, 41));
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,18 +38,35 @@ h3 {
 #navbar a {
     text-decoration: none;
     color: wheat;
-    padding: 24px;
+    padding: 10px;
 }
 
 #navbar img {
-    height: 50px;
+    height: 70px;
+    width: 100%;
 }
 
 #navbar #logo {
     margin-right: auto;
 }
 
-#navbar .cta-button {
+
+#hero-1 {
+    background-image: url("../images/hero-2.jpeg");
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    flex-direction: column;
+}
+
+#hero-1 h1 {
+    font-size: 100px;
+}
+
+#hero-1 .cta-button {
     border: 2px dotted;
     border-color: wheat;
     color: wheat;
@@ -58,8 +76,14 @@ h3 {
     font-weight: bold;
     min-width: 100px;
     text-align: center;
-    margin-right: 24px;
+    align-items: bottom;
+    justify-content: baseline;
 }
+
+#hero h3 {
+    font-size: 60px;
+}
+
 
 #layout {
     max-width: 800px;
@@ -121,13 +145,13 @@ h3 {
 }
 
 .card img {
-    width: 100%;
+    width: 95%;
     height: 60%;
     object-fit: cover;
 }
 
 .card h2 {
-    font-size: 36px;
+    font-size: 26px;
     margin-top: 12px;
     margin-bottom: 0px;
 }
@@ -155,3 +179,20 @@ h3 {
     background-color: transparent;
     color: slategrey;
 }
+
+.three-cards {
+    display: flex;
+    margin-top: 48px;
+}
+
+.card {
+    margin: 48px 24px 24px;
+    padding: 12px 12px 24px;
+    text-align: center;
+    box-shadow: 4px 4px 8px 0px grey;
+    flex: 1;
+}
+
+
+
+
