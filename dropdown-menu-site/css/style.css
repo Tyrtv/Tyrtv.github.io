@@ -28,6 +28,7 @@ body {
     font-size: 36px;
     padding-top: 13px;
     padding-bottom: 12px;
+    font-family: cursive;
 }
 
 #navbar a:hover {
@@ -71,7 +72,7 @@ body {
 }
 
 #hero-2 {
-    background-image: url("../images/adopt\ me.jpeg");
+    background-image: url("../images/adopt me.jpeg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
