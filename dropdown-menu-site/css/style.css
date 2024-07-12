@@ -33,6 +33,7 @@ body {
 
 #navbar a:hover {
     background: linear-gradient(to top, goldenrod, burlywood, beige);
+    border: solid black;
 }
 
 .dropdown-container {
