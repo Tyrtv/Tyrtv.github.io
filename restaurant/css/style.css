@@ -153,8 +153,7 @@ nav #logo {
     border: 2px solid #f2c641;
     border-radius: 12px;
     padding: 3px 5px;
-    font-weight: bold;
-    
+    font-weight: bold;   
 }
 
 .card a:hover {
@@ -175,18 +174,52 @@ footer {
 .featured-dish {
     text-align: center;
     padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 .dish-details {
     max-width: 800px;
     margin: 0 auto;
+    width: 300px;
+    border: 2px solid #AA8730;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px #aa8730;
+    background: linear-gradient(
+        -50deg,
+        rgb(248, 240, 225),
+        rgb(255, 213, 134),
+        rgb(251, 233, 198));
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+    transition: transform 0.3s ease;
+    flex: 0 1 30%;
 }
 
 .featured-dish img {
-    max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.dish-details a {
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #f2c641;
+    border-radius: 12px;
+    padding: 3px 5px;
+    font-weight: bold;   
+}
+
+.dish-details a:hover {
+    background-color: #fffde2;
 }
 
 .menu-items {
@@ -194,7 +227,7 @@ footer {
     justify-content: space-around;
     align-items: stretch;
     flex-wrap: wrap;
-    padding: 20px;
+
 }
 
 .menu-item {
@@ -205,9 +238,9 @@ footer {
     box-shadow: 0 4px 8px #aa8730;
     background: linear-gradient(
         -50deg,
-        #FFFDE2,
-        #f2c641,
-        #FFFDE2);
+        rgb(248, 240, 225),
+        rgb(255, 213, 134),
+        rgb(251, 233, 198));
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -220,11 +253,25 @@ footer {
     transform: scale(1.05);
 }
 
+.menu-item a {
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #f2c641;
+    border-radius: 12px;
+    padding: 3px 5px;
+    font-weight: bold;   
+}
+
+.menu-item a:hover {
+    background-color: #fffde2;
+}
+
 .menu-item img {
     max-width: 100%;
-    height: auto;
+    height: 50%;
     border-radius: 8px;
     margin-bottom: 15px;
+    border: 1px solid black;
 }
 
 .price {
@@ -233,6 +280,116 @@ footer {
     font-size: 1.2em;
     padding-bottom: 15px;
     margin-bottom: auto;
+}
+
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 24px;
+    border: 2px dotted black;
+    background: linear-gradient(
+        -50deg,
+        rgb(248, 240, 225),
+        rgb(255, 213, 134),
+        rgb(251, 233, 198));
+    gap: 24px;
+    margin-bottom: 24px;
+    align-content: center;
+}
+
+.basic-grid-gallery img {
+    width: 50%;
+}
+
+.basic-grid-gallery:hover {
+    background: #fffde2;
+}
+
+.cards {
+    flex: 300px;
+    border: 2px solid #f2c641;
+    background: linear-gradient(
+        -50deg,
+        rgb(248, 240, 225),
+        rgb(255, 213, 134),
+        rgb(251, 233, 198));
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+    
+    
+.cards a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: 2px solid #f2c641;
+    background: linear-gradient(
+        -50deg,
+        rgb(248, 240, 225),
+        rgb(255, 213, 134),
+        rgb(251, 233, 198));
+    padding: 12px;
+    margin-bottom: 36px;
+    margin-top: 0px;
+}
+
+.cards a:hover {
+    background: #fffde2;
+    border: 2px solid #f2c641;
+}
+
+#card5 {
+    position: relative;
+}
+
+#card5 img {
+    max-width: 50%;
+    height: 30%;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+#card5 .card-content {
+    position: absolute;
+    background: linear-gradient(
+        -50deg,
+        rgb(248, 240, 225),
+        rgb(255, 213, 134),
+        rgb(251, 233, 198));
+    border: 3px solid black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px #00000033;
+    margin: 0px 24px;
+    padding: 24px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: 
+        opacity 0.5s,
+        visibility 0.5s,
+        transform 0.5s;
+}
+
+#card5:hover .card-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0px);
+}
+
+#card5:hover {
+    background: #fffde2;
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+    
+    
+#card5 {
+    transition: 
+        background-color 0.5s,
+        box-shadow 0.5s,
+        transform 0.5s;
 }
 
 @media screen and (max-width: 768px) {
@@ -266,6 +423,7 @@ footer {
         margin: 20px;
         transition: transform 0.3s ease;
         flex: 0 1 30%;
+        width: fit-content;
     }
 
     .card a {
@@ -277,4 +435,12 @@ footer {
         font-weight: bold;
     }
 
+    #card5 a {
+        text-decoration: none;
+        color: #333;
+        border: 2px solid #aa8730;
+        border-radius: 12px;
+        padding: 3px 5px;
+        font-weight: bold;
+    }
 }
