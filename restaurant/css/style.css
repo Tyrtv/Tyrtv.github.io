@@ -145,6 +145,7 @@ nav #logo {
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
+    border: 1px solid black;
 }
 
 .card a {
@@ -375,7 +376,8 @@ footer {
 #card5:hover .card-content {
     opacity: 1;
     visibility: visible;
-    transform: translateY(0px);
+    transform: translateY(25px);
+    left: 250px;
 }
 
 #card5:hover {
