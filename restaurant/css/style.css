@@ -394,9 +394,9 @@ footer {
         transform 0.5s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     body {
-        background:  #fffde2;
+        padding: 10px;
     }
 
     nav {
@@ -404,45 +404,66 @@ footer {
         align-items: center;
     }
 
-    nav a {
+    nav #logo {
+        margin-bottom: 10px;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    .media-text {
         flex-direction: column;
-        gap: 10px;
+        padding: 20px;
+    }
+
+    .media-text img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
     }
 
     .card {
-        border: 2px solid wheat;
-        border-radius: 5px;
-        padding: 10px;
-        box-shadow: -4px 4px 12px rgb(251, 221, 167);
-        background: linear-gradient(
-        -50deg,
-        rgb(248, 240, 225),
-        rgb(255, 213, 134),
-        rgb(251, 233, 198));
-        display: flex;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .featured-dish {
         flex-direction: column;
-        text-align: center;
-        margin: 20px;
-        transition: transform 0.3s ease;
-        flex: 0 1 30%;
-        width: fit-content;
+        align-items: center;
     }
 
-    .card a {
-        text-decoration: none;
-        color: #333;
-        border: 2px solid #aa8730;
-        border-radius: 12px;
-        padding: 3px 5px;
-        font-weight: bold;
+    .dish-details {
+        width: 100%;
     }
 
-    #card5 a {
-        text-decoration: none;
-        color: #333;
-        border: 2px solid #aa8730;
-        border-radius: 12px;
-        padding: 3px 5px;
-        font-weight: bold;
+    .menu-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .basic-grid-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .basic-grid-gallery img {
+        width: 100%;
+    }
+
+    footer {
+        padding: 10px;
     }
 }
