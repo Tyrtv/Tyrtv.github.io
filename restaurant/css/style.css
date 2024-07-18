@@ -371,6 +371,7 @@ footer {
         opacity 0.5s,
         visibility 0.5s,
         transform 0.5s;
+        left: 250px;
 }
 
 #card5:hover .card-content {
