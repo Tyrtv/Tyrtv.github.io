@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+            <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <h1>MeTube</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search for channels">
+                <button onclick="searchChannel()">🔍</button>
+            </div>
+            <div class="user-icons">
+                <button>Sign In</button>
+            </div>
+        </header>
+
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <ul>
+                <li><span class="sidebar-text">🏠</span> Home</li>
+                <li><span class="sidebar-text">🔥</span> Trending</li>
+                <li><span class="sidebar-text">📺</span> Subscriptions</li>
+                <li><span class="sidebar-text">📚</span> Library</li>
+                <li><span class="sidebar-icon">🕒</span> History</li>
+            </ul>
+        </nav>
+        <!-- Main Content -->
+        <main class="main-content">
+             <!-- Ad Section 1: Top Ad -->
+            <div class="ad-section">
+                <img src="https://via.placeholder.com/728x90" alt="Ad Banner">
+            </div>
+            <div class="video-grid">
+                <!-- Video 1 -->
+                <div class="video">
+                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
+                    <div class="video-info">
+                        <h3>Sample Video Title</h3>
+                        <p>Channel Name</p>
+                        <p>1M views • 1 day ago</p>
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="video">
+                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
+                    <div class="video-info">
+                        <h3>Another Cool Video</h3>
+                        <p>Another Channel</p>
+                        <p>500K views • 2 days ago</p>
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="video">
+                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
+                    <div class="video-info">
+                        <h3>Exciting Video</h3>
+                        <p>Cool Channel</p>
+                        <p>750K views • 5 hours ago</p>
+                    </div>
+                </div>
+
+                <!-- Video 4 -->
+                <div class="video">
+                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
+                    <div class="video-info">
+                        <h3>Fun Video to Watch</h3>
+                        <p>Fun Channel</p>
+                        <p>2M views • 3 days ago</p>
+                    </div>
+                </div>
+
+                <!-- Video 5 -->
+                <div class="video">
+                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
+                    <div class="video-info">
+                        <h3>Another Interesting Video</h3>
+                        <p>Another Cool Channel</p>
+                        <p>1.5M views • 1 week ago</p>
+                    </div>
+                </div>
+
+                <div class="ad-section">
+                    <img src="https://via.placeholder.com/300x250" alt="Ad Banner">
+                </div>
+
+                <!-- Video 6 -->
+                <div class="video">
+                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
+                    <div class="video-info">
+                        <h3>Must-Watch Video</h3>
+                        <p>Amazing Channel</p>
+                        <p>3M views • 4 hours ago</p>
+                    </div>
+                </div>
+
+                <!-- Video 7 -->
+                <div class="video">
+                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
+                    <div class="video-info">
+                        <h3>Awesome Content</h3>
+                        <p>Top Channel</p>
+                        <p>500K views • 2 weeks ago</p>
+                    </div>
+                </div>
+
+                <!-- Video 8 -->
+                <div class="video">
+                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
+                    <div class="video-info">
+                        <h3>Engaging Video</h3>
+                        <p>Creative Channel</p>
+                        <p>850K views • 1 day ago</p>
+                    </div>
+                </div>
+
+                <!-- Video 9 -->
+                <div class="video">
+                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
+                    <div class="video-info">
+                        <h3>Highly Recommended Video</h3>
+                        <p>Great Channel</p>
+                        <p>2.2M views • 1 hour ago</p>
+                    </div>
+                </div>
+
+                <!-- Add more video blocks as needed -->
+            </div>
+        </main>
+        <script>
+           function searchChannel() {
+                const input = document.getElementById("search-input").value.toLowerCase();
+
+                if (input === "channel name") {
+                    window.location.href = "channel.html";
+                } else if (input === "another channel") {
+                    window.location.href = "another_channel.html"; // Another channel page
+                } else {
+                    alert("Channel not found!");
+                }
+            }
+        </script>
+    </body>
+</html>
