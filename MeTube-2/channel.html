@@ -38,7 +38,7 @@
         <!-- Main Content for Channel Page -->
         <main class="main-content">
             <div class="channel-banner">
-                <img src="https://via.placeholder.com/1200x250" alt="Channel banner">
+                <img src="images/banner-12.png" alt="Channel banner">
             </div>
 
             <div class="ad-section">
@@ -77,27 +77,34 @@
                 </div>
 
                 <div class="ad-section">
-                    <img src="https://via.placeholder.com/300x250" alt="Ad Banner">
+                    <img src="images/goku.gif" alt="Ad Banner">
                 </div>
 
                 <!-- Channel's Video 3 -->
                 <div class="video">
-                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
+                    <img src="images/thumbnail-BS.png" alt="Video thumbnail">
                     <div class="video-info">
-                        <h3>Another Channel Video</h3>
-                        <p>500K views • 2 days ago</p>
-                    </div>
-                </div>
-                <!-- Channel's Video 4 -->
-                <div class="video">
-                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
-                    <div class="video-info">
-                        <h3>Another Channel Video</h3>
-                        <p>500K views • 2 days ago</p>
+                        <h3>Black Ops 6 Beta Gameplay</h3>
+                        <p>1.3K views • 20 mins ago</p>
                     </div>
                 </div>
                 <!-- Add more channel videos -->
             </div>
+            <script>
+                function searchChannel() {
+                     const input = document.getElementById("search-input").value.toLowerCase();
+     
+                     if (input === "TyrTv") {
+                         window.location.href = "channel.html";
+                     } 
+                     else if (input === "Alydia.d") {
+                         window.location.href = "channel-2.html";
+                     } 
+                     else {
+                         alert("Channel not found!");
+                     }
+                 }
+             </script>
         </main>
     </body>
 </html>

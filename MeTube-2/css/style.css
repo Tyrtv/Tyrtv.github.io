@@ -199,14 +199,14 @@ header .user-icons button {
     }
 
     .logo-link {
-        margin-bottom: 15px;
+        margin-bottom: 1px;
     }
 
     .header .search-bar {
         width: 100%;
         display: flex;
         justify-content: center;
-        margin: 0 20px;
+        margin: 10px 10px;
         flex-grow: 1;
     }
 
@@ -227,6 +227,8 @@ header .user-icons button {
 
     .sidebar {
         width: 200px;
+        position: fixed;
+        margin-top: 95px;
     }
 
     .main-content {
@@ -237,6 +239,7 @@ header .user-icons button {
     .video-grid {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 15px;
+        margin-top: 100px;
     }
 
     .video {
@@ -246,6 +249,7 @@ header .user-icons button {
     /* Ad sections on tablets */
     .ad-section {
         margin: 15px 0;
+        padding-top: 10%;
     }
 
     .ad-section img {
@@ -314,6 +318,8 @@ header .user-icons button {
     /* Ad sections on smartphones */
     .ad-section {
         margin: 10px 0;
+        padding-top: 25%;
+        position: sticky;
     }
 
     .ad-section img {
@@ -401,6 +407,8 @@ header .user-icons button {
     /* Ad sections on small phones */
     .ad-section {
         margin: 8px 0;
+        padding-top: 15%;
+        position: sticky;
     }
 
     .ad-section img {
