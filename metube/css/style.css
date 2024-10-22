@@ -1,11 +1,31 @@
 * {
     box-sizing: border-box;
-    background-color: rgb(73, 88, 104);
+    background-color: rgb(44, 44, 44);
 }
 
 body {
     margin: 0px;
-    font-family: cursive;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
+#navbar-1 {
+    background: linear-gradient( green, forestgreen, olive);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar-1 a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar-1 #logo {
+    margin-right: auto;
 }
 
 #grid-layout {
@@ -26,13 +46,13 @@ body {
 }
 
 #header #me {
-    color: white;
+    color: antiquewhite;
     padding: 1px;
 }
 
 #header #tube {
     background-color: teal;
-    color: rgb(73, 88, 104);
+    color: antiquewhite;
     padding: 2px;
     border-radius: 12px;
 }
@@ -51,13 +71,13 @@ body {
 
 #sidebar ul a {
     text-decoration: none;
-    color: #111111;
+    color: antiquewhite;
     display: block;
     padding: 12px;
 }
 
 #sidebar ul a:hover {
-    background-color: coral;
+    background-color: teal;
     border-radius: 8px;
     opacity: 50%;
 }
@@ -72,19 +92,21 @@ body {
     flex: 250px;
     margin-right: 12px;
     margin-bottom: 12px;
+    max-width: fit-content;
 }
 
-.metube-item .thumbnail-placeholder-beast {
+.metube-item .thumbnail-placeholder img {
     aspect-ratio: 16/9;
+    margin-top: 1px;
+    max-width: fit-content;
     border-radius: 8px;
-    border-style: inset;
 }
 
 .metube-item .thumbnail-placeholder {
-    background-color: #111111;
     aspect-ratio: 16/9;
-    border-radius: 8px;
     border-style: inset;
+    border-radius: 8px;
+    max-width: fit-content;
 }
 
 .metube-item h4 {
@@ -99,6 +121,10 @@ body {
 
 .metube-item h4 a:hover {
     text-decoration: underline;
+    background-color: teal;
+    border-radius: 8px;
+    opacity: 50%;
+    color: antiquewhite;
 }
 
 .metube-item .video-details {

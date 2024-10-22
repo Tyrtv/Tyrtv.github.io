@@ -7,10 +7,6 @@ body {
     font-family: sans-serif;
 }
 
-#hero-1 {
-    background-image: url("../images/desert-tumbleweed.jpg");
-    height: 100vh;
-}
 
 #hero-1 {
     background-image: url("../images/desert-tumbleweed.jpg");
@@ -18,23 +14,34 @@ body {
     background-size: cover; 
     background-position: center center;
     display: flex;
-    justify-content: flex-start; 
+    justify-content: center; 
     align-items: center;
+    flex-direction: column;
 }
 
-#hero-1 h3 {
+#hero-1 h2 {
     font-size: 10vw; 
     padding-left: 5vw; 
 }
 
 #hero-1 a {
-    font-size: vw;
+    font-size: 2vw;
     display: block;
-    background-color: rgb(61, 85, 109);
-    color: wheat;
+    background-color: burlywood;
+    color: whitesmoke;
     text-decoration: none;
     padding: 10px;
-    margin: 5vh 5vw 10vh 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+#sub-hero a {
+    background-color: teal;
+    color: goldenrod;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: block;
 }
 
 #hero-2 {
@@ -53,6 +60,7 @@ body {
     margin-bottom: 5vh;
     margin-right: 5vw;
     color: rgb(61, 85, 109);
+    padding-left: 10vw;
 }
 
 #hero-2 h4 {
@@ -71,6 +79,11 @@ body {
     margin: 5vh 5vw 10vh 0px;
 }
 
+#hero-2b a {
+    background-color: rgb(47, 255, 144);
+    color: pink;
+}
+
 #hero-4 {
     background-image: url("../images/snowy-wasteland.jpg");
     height: 100vh;
@@ -85,7 +98,6 @@ body {
     text-align: center;
     color: rgb(61, 85, 109);
     padding-top: 20vh; 
-
 }
 
 #hero-4 h2 {

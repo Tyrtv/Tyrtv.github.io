@@ -5,7 +5,7 @@
 body {
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url("../images/leopard.jpeg");
+    background-color: beige;
 }
 
 #navbar {
@@ -28,10 +28,12 @@ body {
     font-size: 36px;
     padding-top: 13px;
     padding-bottom: 12px;
+    font-family: cursive;
 }
 
 #navbar a:hover {
     background: linear-gradient(to top, goldenrod, burlywood, beige);
+    border: solid black;
 }
 
 .dropdown-container {
@@ -42,6 +44,7 @@ body {
     position: absolute;
     opacity: 0;
     visibility: hidden;
+    z-index: 1;
     transition: 
         opacity 0.25s,
         visibility 0.25s;
@@ -66,10 +69,11 @@ body {
     
 #navbar .dropdown-menu a:hover {
     background: beige;
+    border: solid black;
 }
 
 #hero-2 {
-    background-image: url("../images/adopt\ me.jpeg");
+    background-image: url("../images/adopt me.jpeg");
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -83,11 +87,13 @@ body {
     font-size: 8vw;
     margin-bottom: 5vh;
     margin-right: 5vw;
+    text-shadow: 2px 2px goldenrod;
 }
 
 #hero-2 h4 {
     font-size: 3vw;
     margin: 0px 5vw 0px 0px;
+    text-shadow: 2px 2px black;
 }
 
 #hero-2 a {
@@ -130,7 +136,7 @@ body {
     text-decoration: none;
     color: black;
     display: block;
-    border: 3px solid goldenrod;
+    border: 3px solid beige;
     padding: 12px;
     margin-bottom: 36px;
     margin-top: 0px;
@@ -144,7 +150,7 @@ body {
 }
 
 #card2:hover a {
-    background-color: beige;
+    background-color: goldenrod;
     box-shadow: 4px 4px 4px black;
     transform: translateY(-4px);
 }
@@ -153,7 +159,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     padding: 24px;
-    border: 10px dashed burlywood;
+    border: 10px dotted beige;
     gap: 24px;
     margin-bottom: 24px;
 }
@@ -164,11 +170,11 @@ body {
 
 #card2 {
     position: relative;
+    background-color: rgb(222, 184, 135,0.8);
 }
 
 #card2 .card-content {
     position: absolute;
-    background-color: burlywood;
     border: 3px solid black;
     border-radius: 12px;
     box-shadow: 4px 4px 4px #00000033;
@@ -191,7 +197,7 @@ body {
 }
 
 #card2:hover {
-    background-color: black;
+    background-color: goldenrod;
     box-shadow: 4px 4px 4px #00000033;
     transform: translateY(-4px);
 }
@@ -204,13 +210,31 @@ body {
 }
 
 #available-animals h1,
-p,
 h4  {
-    color: beige;
+    color: goldenrod;
     text-align: center;
+    text-shadow: 2px 2px black;
 }
 
-@media screen and (max-width: 480px) {
+#available-animals p,
+h3 {
+    color: beige;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+.animals p {
+    color: beige;
+    text-shadow: 2px 2px black;
+}
+
+#available-animals h2{
+    color: goldenrod;
+    text-align: center;
+    text-shadow: 2px 2px black;
+}
+
+@media screen and (max-width: 750px) and (max-width: 480px) {
     #navbar {
         flex-direction: column;
     }
