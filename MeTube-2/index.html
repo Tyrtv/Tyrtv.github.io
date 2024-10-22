@@ -10,15 +10,17 @@
     <body>
             <!-- Header -->
         <header class="header">
-            <div class="logo">
-                <h1>MeTube</h1>
-            </div>
+            <a href="index.html" class="logo-link">
+                <div class="logo">
+                    <h1>MeTube</h1>
+                </div>
+            </a>
             <div class="search-bar">
                 <input type="text" id="search-input" placeholder="Search for channels">
                 <button onclick="searchChannel()">🔍</button>
             </div>
             <div class="user-icons">
-                <button>Sign In</button>
+                <button class="sign-in-btn">Sign In</button>
             </div>
         </header>
 
@@ -36,28 +38,32 @@
         <main class="main-content">
              <!-- Ad Section 1: Top Ad -->
             <div class="ad-section">
-                <img src="https://via.placeholder.com/728x90" alt="Ad Banner">
+                <img src="images/leaderboard.jpg" alt="Ad Banner">
             </div>
             <div class="video-grid">
                 <!-- Video 1 -->
-                <div class="video">
-                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
-                    <div class="video-info">
-                        <h3>Sample Video Title</h3>
-                        <p>Channel Name</p>
-                        <p>1M views • 1 day ago</p>
+                <a href="channel-2.html" class="video-link">
+                    <div class="video">
+                        <img src="images/Untitled_Artwork (2).png" alt="Video thumbnail">
+                        <div class="video-info">
+                            <h3>Travel Vlog Ep. I: Australia </h3>
+                            <p>Alydia.d</p>
+                            <p>1M views • 1 day ago</p>
+                        </div>
                     </div>
-                </div>
+                </a>
 
                 <!-- Video 2 -->
-                <div class="video">
-                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
-                    <div class="video-info">
-                        <h3>Another Cool Video</h3>
-                        <p>Another Channel</p>
-                        <p>500K views • 2 days ago</p>
+                <a href="channel.html" class="video-link">
+                    <div class="video">
+                        <img src="images/road-to-reaper-ep.2 copy.png" alt="Video thumbnail">
+                        <div class="video-info">
+                            <h3>Road To Reaper| Ep 2</h3>
+                            <p>TyrTv</p>
+                            <p>500K views • 2 days ago</p>
+                        </div>
                     </div>
-                </div>
+                </a>
 
                 <!-- Video 3 -->
                 <div class="video">
@@ -71,44 +77,46 @@
 
                 <!-- Video 4 -->
                 <div class="video">
-                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
+                    <img src="images/CJ.png" alt="Video thumbnail">
                     <div class="video-info">
-                        <h3>Fun Video to Watch</h3>
-                        <p>Fun Channel</p>
+                        <h3>Rookies Show Out for Pro Bowl drills </h3>
+                        <p>NFL</p>
                         <p>2M views • 3 days ago</p>
                     </div>
                 </div>
 
                 <!-- Video 5 -->
-                <div class="video">
-                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
-                    <div class="video-info">
-                        <h3>Another Interesting Video</h3>
-                        <p>Another Cool Channel</p>
-                        <p>1.5M views • 1 week ago</p>
+                <a href="channel.html" class="video-link">
+                    <div class="video">
+                        <img src="images/Road-to-Reaper_thumbnail.jpeg" alt="Video thumbnail">
+                        <div class="video-info">
+                            <h3>Road To Reaper| Ep 1</h3>
+                            <p>TyrTv</p>
+                            <p>1.5M views • 1 week ago</p>
+                        </div>
                     </div>
-                </div>
+                </a>
 
                 <div class="ad-section">
-                    <img src="https://via.placeholder.com/300x250" alt="Ad Banner">
+                    <img src="images/Large Rectangle.jpg" alt="Ad Banner">
                 </div>
 
                 <!-- Video 6 -->
                 <div class="video">
-                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
+                    <img src="images/Beast.png" alt="Video thumbnail">
                     <div class="video-info">
-                        <h3>Must-Watch Video</h3>
-                        <p>Amazing Channel</p>
+                        <h3>I Built 100 Wells in Africa </h3>
+                        <p>MrBeast</p>
                         <p>3M views • 4 hours ago</p>
                     </div>
                 </div>
 
                 <!-- Video 7 -->
                 <div class="video">
-                    <img src="https://via.placeholder.com/300x170" alt="Video thumbnail">
+                    <img src="images/Untitled_Artwork (1).png" alt="Video thumbnail">
                     <div class="video-info">
-                        <h3>Awesome Content</h3>
-                        <p>Top Channel</p>
+                        <h3>A Day in My Life as an Audio Engineer</h3>
+                        <p>Alydia.d</p>
                         <p>500K views • 2 weeks ago</p>
                     </div>
                 </div>
@@ -133,7 +141,7 @@
                 if (input === "channel name") {
                     window.location.href = "channel.html";
                 } else if (input === "another channel") {
-                    window.location.href = "another_channel.html"; // Another channel page
+                    window.location.href = "channel-2.html";
                 } else {
                     alert("Channel not found!");
                 }
